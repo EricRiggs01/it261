@@ -1,0 +1,75 @@
+/* Styles for my portal page */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    background: lavender;
+}
+nav {
+    height:60px;
+    line-height: 60px;
+    background: lightseagreen;
+    margin-bottom:20px;
+}
+#wrapper {
+    max-width:1200px;
+    margin:20px auto;
+
+}
+nav li{
+    float:left;
+    width: 16.66%;
+    text-align:center;
+    list-style-type: none;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+}
+.right {
+    float:right;
+}
+main {
+    float:left;
+    width:62%;
+}
+main h2 {
+    text-align:left;
+}
+aside {
+    float:right;
+    width:35%;
+}
+aside h2 {
+    text-align: left;
+}
+footer{
+    height:60px;
+    line-height:60px;
+    background:#ddd;
+    clear:both;
+}
+footer ul {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+footer li {
+    margin: 0 15px;
+}
+
+
+/* Typography */
+h1 {
+    text-align: center;
+    font-size:3em;
+    margin: 20px 0;
+}
+h2 {
+    text-align:center;
+    font-size:2em;
+    margin-bottom: 20px;
+}
